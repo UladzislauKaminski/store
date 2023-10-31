@@ -58,3 +58,7 @@ export {
   PropertySelectors,
   TypedSelector,
 } from './selectors';
+
+export { StateFactory } from './internal/state-factory';
+export { LifecycleStateManager } from './internal/lifecycle-state-manager';
+export { InternalStateOperations } from './internal/state-operations';
